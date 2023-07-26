@@ -1,0 +1,58 @@
+@charset "UTF-8";
+h1 {
+	font-size: 40px; text-indent: 30px;
+}
+div#orderTbl {
+	width: 50%;
+	margin: 0 auto;
+	border: 3px solid #000;
+	border-radius: 10px;
+}
+div#goodsImg>img {
+	margin: 0 auto;
+	width: 50%;
+	display: block;
+} 
+div#orderInfo {
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+div#orderInfo span {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 10px;
+}
+div#orderInput {
+	width: 80%;
+	margin: 0 auto;
+}
+div#orderInput span {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+div#orderInput input {
+	font-size: 18px;
+	padding: 5px 2px;
+	width: 98%;
+}
+div#orderInput select {
+	font-size: 18px;
+	padding: 5px 2px;
+}
+div#orderBtnArea {
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+div#orderBtnArea button {
+	font-size: 22px;
+	width: 25%;
+	padding: 5px 10px;
+	cursor: pointer;
+}

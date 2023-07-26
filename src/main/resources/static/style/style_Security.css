@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+div#wrap {
+	width: 400px;
+	margin: 30% auto;
+	border: 3px solid #000;
+	border-radius: 10px;
+	padding: 20px;
+}
+div#wrap h1 {
+	text-align: center;
+}
+div#wrap hr {
+	margin: 25px 0;
+}
+div#wrap form {
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns : 1fr 1fr;
+}
+form span {
+	font-size: 20px;
+	font-weight: bold;
+}
+form input {
+	width: 200px;
+	font-size: 18px;
+	padding: 2px;
+	margin-bottom: 15px;
+}
+#btnArea{
+	text-align: center;
+}
+button{
+	font-weight: bold;
+	padding: 18px;
+	padding: 10px;
+}
+button:nth-child(1) {
+	font-size: 17px;
+	padding: 9px 10px;
+} 
