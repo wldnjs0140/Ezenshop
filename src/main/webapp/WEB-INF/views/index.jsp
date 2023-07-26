@@ -6,7 +6,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>index.jsp</title>
+<title>EZENSHOP</title>
 <link rel="stylesheet" href="/style/style.css">
 <link rel="stylesheet" href="/style/style_index.css">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -21,16 +21,6 @@
 			<%@ include file="/WEB-INF/views/inc/sitemap.jsp"%>
 			<div id="mainPage">
 				<main id="main">
-					<div id="slideBtnArea">
-						<div class="custom-prev-button">
-						  <span class="arrow-left"></span>
-						</div>
-						
-						<div class="custom-next-button">
-						  <span class="arrow-right"></span>
-						</div>
-					</div>
-					<!-- sildeBtnArea -->
 					<div id="sildeArea">
 						<div id="slideImgs" class="slide_div">
 							<div>

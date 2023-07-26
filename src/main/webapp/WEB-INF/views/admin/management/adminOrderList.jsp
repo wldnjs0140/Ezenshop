@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>adminOrderList</title>
+<title>관리자주문목록</title>
 <link rel="stylesheet" href="/style/style.css" />
 <link rel="stylesheet" href="/style/style_adminOrderList.css" />
 </head>

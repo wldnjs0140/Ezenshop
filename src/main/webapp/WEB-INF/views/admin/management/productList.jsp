@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>EZENSHOP</title>
+<title>전체상품목록</title>
 <link rel="stylesheet" href="/style/style.css" />
 <link rel="stylesheet" href="/style/style_adminProduct.css" />
 </head>
@@ -44,7 +44,7 @@
 						varStatus="status">
 
 
-						<div class="proTblList dFlex">
+						<div class="proTblList listRow dFlex">
 							<span> <input type="checkbox" class="chk" name="delCode"
 								value="${goodsRegList.goodsCode}" form="delFrm">
 							</span> <span> <a class="goodsRegAtag"
