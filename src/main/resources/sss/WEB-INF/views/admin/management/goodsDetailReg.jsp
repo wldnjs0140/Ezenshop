@@ -37,8 +37,11 @@
 						
 						<div id="goodsOrder">
 							<h3 class="title">
-								${goodsList.goodsName}  <br> <font class="size"
-									style="font-size: 11px; color: #595959;">M~2XL(95~115)</font>
+								${goodsList.goodsName}  <br> 
+								<font class="size"
+									style="font-size: 11px; color: #595959;">
+									M~2XL(95~115)
+								</font>
 							</h3>
 							
 							<textarea name="goodsTXT" id="goodsTXT" cols="30" rows="10"
@@ -53,8 +56,8 @@
 									</tr>
 									<c:if test="${goodsList.goodsDiscount <0}">
 									<tr>
-									<fmt:formatNumber var="p2" value="${goodsList.goodsPrice* goodsList.goodsDiscount}" pattern="#,###" />
-									
+									<fmt:formatNumber var="p2" value="${goodsList.goodsPrice* goodsList.goodsDiscount}" 
+										pattern="#,###" />
 										<td>판매가격</td>
 										<td>${p2}</td>
 									</tr>
@@ -70,14 +73,13 @@
 								<!-- btnArea -->
 
 							</div>
-						<!-- 	orderArea -->
+						<!-- orderArea -->
 						</div>
 						<!-- goodsOrder -->
 						
 					</div>
- 				<!-- .goods-thumb -->
+ 					<!-- .goods-thumb -->
 				
-				<!-- form1 -->
 				</div>
 				<!-- goods-thumb-info -->
 				
@@ -86,23 +88,22 @@
 			<!-- main#main -->
 
 			<div id="mGnbMenu">
-				<span><a href="#">코디상품</a></span> <span><a href="#">상세정보</a></span>
-				<span><a href="#">가이드</a></span> <span><a href="#">상품리뷰</a></span> <span><a
-					href="#">Q&amp;A</a></span>
-			
-			
-					
-				<div class="addImage-container">
-					<!-- <img style="width: 570px;height: 735px;" id="adImgs-image"
-									src="https://dummyimage.com/500x500/ffffff/000000.png&text=adImgs+image"> -->
-					<input type="file" style="display: block;" name="files" 
-					id="adImgs" class="files" form="form1" required multiple="multiple">
-				</div>
-				
+				<span><a href="#">코디상품</a></span> 
+				<span><a href="#">상세정보</a></span>
+				<span><a href="#">가이드</a></span>
+				<span><a href="#">상품리뷰</a></span> 
+				<span><a href="#">Q&amp;A</a></span>
 			</div>
+			<!-- #mGnbMenu -->
 			
+			<div class="addImage-container">
+				<input type="file" style="display: block;" name="files" 
+					id="adImgs" class="files" form="form1" required multiple="multiple">
+			</div>
+			<!-- .addImage-container -->
+				
 			
-
+				
 		</div>
 		<!-- innerWrap -->
 		<%@ include file="/WEB-INF/views/inc/footer.jsp"%>

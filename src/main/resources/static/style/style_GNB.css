@@ -55,6 +55,7 @@ ul.commuUl {
 	display: none;
 }
 ul.commuUl>li {
+	margin-left: 40px;
 	padding: 0 5px; 
 	width: 70px;
 	text-align: center;
